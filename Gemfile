@@ -8,6 +8,7 @@ group :development ,:test do
   gem 'guard-rspec', '2.5.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.5.3'
+
 end
 
 group :test do 
@@ -38,8 +39,8 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# Use ActiveModel has_secure_passwordg
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
