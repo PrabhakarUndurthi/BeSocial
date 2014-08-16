@@ -1,8 +1,12 @@
 @import "bootstrap";
 
-/* mixins, variables, etc. */
+
 
 $grayMediumLight: #eaeaea;
+$lightGray: #999;
+$lightMediumGray: #eaeaea;
+$gray: #555;
+$grayDarker:  #222;
 
 /* universal */
 
@@ -64,7 +68,7 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
+  
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -80,23 +84,29 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
-  a {
-    color: $gray;
-    &:hover {
-      color: $grayDarker;
-    }
+  border-top: 1px solid  $grayMediumLight; 
+  color: $lightGray;
+    a {
+  color: $gray;
+ &:hover {
+  color: $grayDarker;
   }
-  small {
-    float: left;
+
+}
+
+small {
+  float: left;
   }
-  ul {
-    float: right;
-    list-style: none;
-    li {
-      float: left;
-      margin-left: 10px;
-    }
-  }
+
+ ul {
+  float: right;
+  list-style: none;
+
+  li {
+  float: left;
+  margin-left: 10px;
+
+}
+
+ }
 }
